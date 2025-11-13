@@ -41,8 +41,6 @@ local Tab = Window:CreateTab("Magic Home", 4483362458) -- Title, Image
 
 local Paragraph = Tab:CreateParagraph({Title = "Button Start", Content = "Button Stop"})
 
-local Paragraph = Tab:CreateParagraph({Title = "Player", Content = "R6-R15"})
-
 local Toggle = Tab:CreateToggle({
    Name = "Start/Stop",
    CurrentValue = false,
